@@ -1,4 +1,4 @@
-import sanityClient from '@sanity/client'
+import sanityClient from '@sanity/client';
 
 //Add sanity
 export default sanityClient({
