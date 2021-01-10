@@ -1,11 +1,11 @@
 import React from "react";
-import image from "../leaf.jpg";
+import treeleaf from "../leaf.jpg";
 
 export default function Home() {
     return (
         <main>
             <img
-                src={image}
+                src={treeleaf}
                 alt="Image"
                 className="absolute object-cover w-full h-full"
             />

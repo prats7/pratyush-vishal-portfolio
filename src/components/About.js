@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client.js";
-import about_img from "../home_img1.jpg";
+import aboutprofile from "../wallleaf.jpg";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
 
@@ -28,7 +28,7 @@ export default function About() {
     return (
         <main className="relative">
             <img
-                src={about_img}
+                src={aboutprofile}
                 alt="about_img"
                 className="absolute w-full"
             />
